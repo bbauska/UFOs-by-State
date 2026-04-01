@@ -122,8 +122,7 @@ var setupLegend = function(map_options, values_array) {
     + signs[1] + " to " + signs[0] + modDifference(map_options.rangeMidHigh) + signs[1]);
   $("#key4").text(signs[0] + addCommas(Number(map_options.rangeLow).toFixed(dec)) 
     + signs[1] + " to " + signs[0] + modDifference(map_options.rangeMidLow) + signs[1]);
-  $("#key5").text(signs[0] + modDifference(map_options.rangeLow) + signs[1] + " 
-    and below");
+  $("#key5").text(signs[0] + modDifference(map_options.rangeLow) + signs[1] + " and below");
   var border_radius = map_options.map_type === "metro" ? "50px" : "0px";
   $(map_options.colors).each(function(i, e) {
     $(".legendBox:eq("+i+")" ).css("background-color", e).css("border-radius", border_radius);
