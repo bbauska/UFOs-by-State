@@ -1,4 +1,4 @@
-/* UFOs-by-State/css/styles.css for UFOs-by-state.bauska.org */
+/* ./css/styles.css of UFOs-by-State for UFOs-by-State.bauska.org */
 @charset "utf-8";
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
   z-index: 5000;
 }
 
-/*-------- CHARTS/TABLES--------------*/
+/*-------- CHARTS/TABLES --------*/
 .chartAndTableGroup {
   margin-top: 25px;
 }
@@ -39,7 +39,7 @@ h1 {
   width: 900px;
   margin: 0 auto;
 }
-.chartPackageDiv{
+.chartPackageDiv {
   padding:10px;
   margin-right:15px;
   margin-bottom: 10px;
