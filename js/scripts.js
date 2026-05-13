@@ -1,4 +1,4 @@
-/* UFOs-by-State/js/scripts.js for UFOs-by-state.bauska.org */
+/* ./js/scripts.js of UFOs-by-State for UFOs-by-State.bauska.org */
 $(document).ready(function(e) {
   $(".showNRchartTable").click(function(event){
     event.stopPropagation();
